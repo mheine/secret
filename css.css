@@ -1,0 +1,78 @@
+/* MATE CSS */
+
+@font-face
+{
+font-family: Sketch;
+src: url('../fonts/SketchRockwell-Bold.ttf');
+
+}
+
+/*Handles main background and page size */
+body {
+	background-color: #030303;
+	text-align: center;
+}
+
+#header {
+
+	margin-top: 100px;
+	font-size: 75px;
+	margin-top: 5%;
+	font-family: Sketch;
+	color: #444444;
+}
+
+.boxhead a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#passbox {
+	margin-top: 2%;
+	width: 270px;
+	height: 40px;
+	float: center;
+	text-align: center;
+	background-color: #444444;
+	border-style: none;
+}
+
+
+#submitbox {
+	margin-top: 2%;
+	width: 270px;
+	height: 40px;
+	float: center;
+	background-color: #444444;
+	border-style: groove;
+}
+
+#textmessage {
+	width: 80%;
+	height: 50%;
+	margin-top: 5%;
+	background-color: #040404;
+	color: #CCCCCC;
+	border-style: groove;
+}
+
+#submitmessage {
+	width: 200px;
+	height: 30px;
+	margin-top: 1%;
+	background-color: #040404;
+	color: #CCCCCC;
+	border-style: groove;
+}
+
+#shared {
+	margin-top: 10px;
+	font-size: 30px;
+	font-family: Sketch;
+	color: #222222;
+}
+
+
+h2 {
+	color: #AAAAAA;
+}
